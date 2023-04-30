@@ -43,7 +43,12 @@ footer{
     left: 45%;
     top: 220%;
     background-color: var(--Neon-Green);
+    box-shadow: 0 0 0 hsl(150, 100%, 76%);
+    transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
+}
+#new-advice:hover{
+    box-shadow: 0 0 10px hsl(150, 100%, 76%);
 }
 #new-advice svg{
     transform: scale(0.75);
