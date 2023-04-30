@@ -43,6 +43,7 @@ footer{
     left: 45%;
     top: 220%;
     background-color: var(--Neon-Green);
+    cursor: pointer;
 }
 #new-advice svg{
     transform: scale(0.75);
